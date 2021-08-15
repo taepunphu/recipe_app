@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class RecipeBundle {
   final int? id, chefs, recipes;
-  String? title, description, imageSrc;
+  final String? title, description, imageSrc;
   final Color? color;
 
   RecipeBundle(
